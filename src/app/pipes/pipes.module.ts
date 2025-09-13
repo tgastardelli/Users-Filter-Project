@@ -7,7 +7,10 @@ import { AddressPipe } from './address.pipe';
     PhonePipe,
     AddressPipe
   ],
-  exports: [PhonePipe]
+  exports: [
+    PhonePipe,
+    AddressPipe
+  ]
 })
 
 export class PipesModule {

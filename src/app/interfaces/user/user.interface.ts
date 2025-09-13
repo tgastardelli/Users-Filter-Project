@@ -1,4 +1,4 @@
-import { IEndereco } from "./address.interface"
+import { IAddress } from "./address.interface"
 import { IStatus } from "./status.interface"
 
 export interface IUser {
@@ -6,7 +6,7 @@ export interface IUser {
   email: string
   senha: string
   idade: number
-  endereco: IEndereco
+  endereco: IAddress
   telefone: string
   ativo: boolean
   funcao: string
