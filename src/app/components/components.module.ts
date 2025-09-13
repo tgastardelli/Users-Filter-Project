@@ -11,7 +11,14 @@ import { UsersListComponent } from './users-list/users-list.component';
     FilterComponent,
     UsersListComponent
   ],
-  imports: [AngularMaterialModule, CommonModule],
-  exports: [UserDetailsComponent, FilterComponent]
+  imports: [
+    AngularMaterialModule,
+    CommonModule
+  ],
+  exports: [
+    UserDetailsComponent,
+    FilterComponent,
+    UsersListComponent
+  ]
 })
 export class ComponentsModule {}
